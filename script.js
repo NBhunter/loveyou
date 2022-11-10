@@ -28,10 +28,10 @@
    // =================================================
    // Banner (đổi ảnh banner sau 3 giây)
    window.onload = function(){
-     setTimeout("switch_Image()", 300);
+     setTimeout("switch_Image()", 1000);
    }
    var current = 1;
-   var num_image = 4;
+   var num_image = 11;
    function switch_Image(){
        current++;
        document.images['heartpic'].src ='img/' + current + '.jpg';
